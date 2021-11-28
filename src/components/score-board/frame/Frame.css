@@ -1,0 +1,29 @@
+
+.cell {
+    border:1px #282c34 solid ;
+    width: 9%;
+    height: 85px;
+    position: relative;
+}
+
+.first-roll {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:2px;
+    text-align: center
+}
+.last-rolls {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:0px;
+    left: 50%;
+    text-align: center
+}
+.last-rolls-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}

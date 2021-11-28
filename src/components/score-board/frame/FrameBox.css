@@ -1,0 +1,52 @@
+
+.cell {
+    border:1px #282c34 solid ;
+    width: 9%;
+    height: 85px;
+    position: relative;
+}
+
+.first-roll {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:2px;
+    text-align: center
+}
+.last-rolls {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top:0px;
+    left: 50%;
+    text-align: center
+}
+
+.last-rolls-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center
+}
+
+.second-roll-regular {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    border-style: solid;
+    border: 1px #282c34 solid;
+    text-align: center
+}
+
+.sum-box {
+    position: absolute;
+    top:52%;
+    width: 100%;
+    height: 50%;
+    color: brown;
+    border-top: 1px #282c34 solid;
+    text-align: center
+}
+
